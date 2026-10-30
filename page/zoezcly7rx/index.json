@@ -1,0 +1,60 @@
+{
+  "id": "zoezcly7rx",
+  "name": {
+    "tr": "Midi elbise",
+    "en": "Midi dress",
+    "ar": "فستان ميدي"
+  },
+  "description": {
+    "tr": "Akışkan viskon, belden bağlamalı midi boy.",
+    "en": "Flowing viscose with a tie waist, midi length.",
+    "ar": "فيسكوز منساب بخصر مربوط وطول ميدي."
+  },
+  "keyword": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "path": "midi-elbise",
+  "icon": "inventory_2",
+  "category": "fg8l4wkkpn",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 4,
+  "url": "",
+  "text": {
+    "tr": "<p>Akışkan viskon, belden bağlamalı midi boy.</p>",
+    "en": "<p>Flowing viscose with a tie waist, midi length.</p>",
+    "ar": "<p>فيسكوز منساب بخصر مربوط وطول ميدي.</p>"
+  },
+  "title": {
+    "tr": "Midi elbise",
+    "en": "Midi dress",
+    "ar": "فستان ميدي"
+  },
+  "date": "2026-10-30T22:22:02.392Z",
+  "update": "2026-10-30T22:29:41.954Z",
+  "desc": {
+    "kumas": {
+      "tr": "%100 viskon",
+      "en": "100% viscose",
+      "ar": "100٪ فيسكوز"
+    },
+    "beden": "XS – L",
+    "bakim": {
+      "tr": "30 °C’de hassas yıkama",
+      "en": "Gentle wash at 30 °C",
+      "ar": "غسيل لطيف عند 30 °م"
+    }
+  },
+  "price": 1790,
+  "stock": 25,
+  "stock_status": "in_stock",
+  "image": "/img/moda-urun-elbise.webp",
+  "badges": [],
+  "sku": "midi-elbise"
+}

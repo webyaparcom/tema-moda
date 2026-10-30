@@ -1,0 +1,37 @@
+{
+  "id": "e05uu1ir2z",
+  "name": {
+    "tr": "Dış giyim",
+    "en": "Outerwear",
+    "ar": "ملابس خارجية"
+  },
+  "description": {
+    "tr": "Dış giyim",
+    "en": "Outerwear",
+    "ar": "ملابس خارجية"
+  },
+  "keyword": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "path": "dis-giyim",
+  "icon": "dry_cleaning",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 1,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Dış giyim",
+    "en": "Outerwear",
+    "ar": "ملابس خارجية"
+  },
+  "date": "2026-10-30T22:22:02.378Z",
+  "update": "2026-10-30T22:29:41.925Z"
+}

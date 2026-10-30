@@ -1,0 +1,37 @@
+{
+  "id": "iindhvp82e",
+  "name": {
+    "tr": "Çanta ve aksesuar",
+    "en": "Bags and accessories",
+    "ar": "حقائب وإكسسوارات"
+  },
+  "description": {
+    "tr": "Çanta ve aksesuar",
+    "en": "Bags and accessories",
+    "ar": "حقائب وإكسسوارات"
+  },
+  "keyword": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "path": "aksesuar",
+  "icon": "shopping_bag",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Çanta ve aksesuar",
+    "en": "Bags and accessories",
+    "ar": "حقائب وإكسسوارات"
+  },
+  "date": "2026-10-30T22:22:02.382Z",
+  "update": "2026-10-30T22:29:41.928Z"
+}

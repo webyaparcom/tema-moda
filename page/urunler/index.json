@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Ürünler",
+    "en": "Products",
+    "ar": "المنتجات"
+  },
+  "status": "play",
+  "category": "",
+  "id": "urunler",
+  "url": "",
+  "path": "urunler",
+  "index": 0,
+  "icon": "storefront",
+  "desing": {
+    "header": [],
+    "body": [
+      "e1kv01",
+      "um5oo7"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Kadın ve erkek giyim, çanta ve aksesuar ürünleri.",
+    "en": "Women’s and men’s clothing, bags and accessories.",
+    "ar": "ملابس نسائية ورجالية وحقائب وإكسسوارات."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Ürünler",
+    "en": "Products",
+    "ar": "المنتجات"
+  },
+  "keyword": {
+    "tr": "moda, giyim, keten gömlek, palto, çanta",
+    "en": "fashion, clothing, linen shirt, coat, bag",
+    "ar": "موضة، ملابس، قميص كتان، معطف، حقيبة"
+  },
+  "text": {},
+  "update": "2026-10-30T22:29:42.051Z",
+  "date": "2026-10-30"
+}

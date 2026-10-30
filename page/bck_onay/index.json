@@ -1,0 +1,38 @@
+{
+  "id": "bck_onay",
+  "name": {
+    "tr": "Sipariş onayı",
+    "en": "Order confirmation",
+    "ar": "تأكيد الطلب"
+  },
+  "description": {
+    "tr": "Demo sipariş onayı.",
+    "en": "Demo order confirmation.",
+    "ar": "تأكيد طلب تجريبي."
+  },
+  "keyword": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "path": "siparis-onay",
+  "icon": "check_circle",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "5sqngq"
+    ],
+    "footer": []
+  },
+  "index": 5,
+  "url": "",
+  "title": {
+    "tr": "Sipariş onayı",
+    "en": "Order confirmation",
+    "ar": "تأكيد الطلب"
+  },
+  "date": "2026-10-30T22:22:02.232Z",
+  "update": "2026-10-30T22:29:42.043Z"
+}
