@@ -1,0 +1,74 @@
+{
+  "data": [
+    {
+      "id": "iindhvp82e",
+      "name": {
+        "tr": "Çanta ve aksesuar",
+        "en": "Bags and accessories",
+        "ar": "حقائب وإكسسوارات"
+      },
+      "description": {
+        "tr": "Çanta ve aksesuar",
+        "en": "Bags and accessories",
+        "ar": "حقائب وإكسسوارات"
+      },
+      "path": "aksesuar",
+      "icon": "shopping_bag",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "id": "e05uu1ir2z",
+      "name": {
+        "tr": "Dış giyim",
+        "en": "Outerwear",
+        "ar": "ملابس خارجية"
+      },
+      "description": {
+        "tr": "Dış giyim",
+        "en": "Outerwear",
+        "ar": "ملابس خارجية"
+      },
+      "path": "dis-giyim",
+      "icon": "dry_cleaning",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 1
+    },
+    {
+      "id": "fg8l4wkkpn",
+      "name": {
+        "tr": "Giyim",
+        "en": "Clothing",
+        "ar": "الملابس"
+      },
+      "description": {
+        "tr": "Giyim",
+        "en": "Clothing",
+        "ar": "الملابس"
+      },
+      "path": "giyim",
+      "icon": "checkroom",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 2
+    }
+  ],
+  "desc": []
+}

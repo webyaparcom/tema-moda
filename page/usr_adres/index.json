@@ -1,0 +1,38 @@
+{
+  "id": "usr_adres",
+  "name": {
+    "tr": "Adreslerim",
+    "en": "My addresses",
+    "ar": "عناويني"
+  },
+  "description": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "keyword": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "path": "adreslerim",
+  "icon": "location_on",
+  "category": "",
+  "status": "pause",
+  "desing": {
+    "header": [],
+    "body": [
+      "uxmd4z"
+    ],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "title": {
+    "tr": "Adreslerim",
+    "en": "My addresses",
+    "ar": "عناويني"
+  },
+  "date": "2026-10-30T22:22:02.232Z",
+  "update": "2026-10-30T22:29:42.023Z"
+}

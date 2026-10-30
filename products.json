@@ -1,0 +1,180 @@
+{
+  "data": [
+    {
+      "id": "uix9ls4wh2",
+      "name": {
+        "tr": "Deri omuz çantası",
+        "en": "Leather shoulder bag",
+        "ar": "حقيبة كتف جلدية"
+      },
+      "description": {
+        "tr": "Sade çizgili, iç gözlü, ayarlanabilir askılı hakiki deri çanta.",
+        "en": "A clean-lined genuine-leather bag with an inner pocket and adjustable strap.",
+        "ar": "حقيبة جلد طبيعي بخطوط بسيطة وجيب داخلي وحزام قابل للتعديل."
+      },
+      "path": "deri-omuz-cantasi",
+      "icon": "inventory_2",
+      "category": "iindhvp82e",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "id": "h8k14xsvpq",
+      "name": {
+        "tr": "İpek şal",
+        "en": "Silk scarf",
+        "ar": "وشاح حرير"
+      },
+      "description": {
+        "tr": "Soyut desenli, hafif ipek şal; 90×90 cm.",
+        "en": "A light silk scarf with an abstract print; 90×90 cm.",
+        "ar": "وشاح حرير خفيف بنقش تجريدي؛ 90×90 سم."
+      },
+      "path": "ipek-sal",
+      "icon": "inventory_2",
+      "category": "iindhvp82e",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 1
+    },
+    {
+      "id": "5p1tmim9un",
+      "name": {
+        "tr": "Yün palto",
+        "en": "Wool coat",
+        "ar": "معطف صوف"
+      },
+      "description": {
+        "tr": "Yün karışımlı, düz kesim, astarlı kış paltosu.",
+        "en": "A lined winter coat in a wool blend with a straight cut.",
+        "ar": "معطف شتوي مبطّن من مزيج الصوف بقصّة مستقيمة."
+      },
+      "path": "yun-palto",
+      "icon": "inventory_2",
+      "category": "e05uu1ir2z",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "7ozyrtpwsr",
+      "name": {
+        "tr": "Denim ceket",
+        "en": "Denim jacket",
+        "ar": "جاكيت دنيم"
+      },
+      "description": {
+        "tr": "Orta ağırlıkta pamuklu denim, klasik kesim.",
+        "en": "Mid-weight cotton denim in a classic cut.",
+        "ar": "دنيم قطني متوسط الوزن بقصّة كلاسيكية."
+      },
+      "path": "denim-ceket",
+      "icon": "inventory_2",
+      "category": "e05uu1ir2z",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "id": "zoezcly7rx",
+      "name": {
+        "tr": "Midi elbise",
+        "en": "Midi dress",
+        "ar": "فستان ميدي"
+      },
+      "description": {
+        "tr": "Akışkan viskon, belden bağlamalı midi boy.",
+        "en": "Flowing viscose with a tie waist, midi length.",
+        "ar": "فيسكوز منساب بخصر مربوط وطول ميدي."
+      },
+      "path": "midi-elbise",
+      "icon": "inventory_2",
+      "category": "fg8l4wkkpn",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 4
+    },
+    {
+      "id": "ker9vn3rbg",
+      "name": {
+        "tr": "Keten gömlek",
+        "en": "Linen shirt",
+        "ar": "قميص كتان"
+      },
+      "description": {
+        "tr": "Yıkanmış keten, rahat kesim; her mevsim katmanlanır.",
+        "en": "Washed linen in a relaxed cut; layers well in every season.",
+        "ar": "كتان مغسول بقصّة مريحة؛ يناسب الطبقات في كل موسم."
+      },
+      "path": "keten-gomlek",
+      "icon": "inventory_2",
+      "category": "fg8l4wkkpn",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 5
+    }
+  ],
+  "desc": [
+    {
+      "path": "kumas",
+      "name": {
+        "tr": "Kumaş",
+        "en": "Fabric",
+        "ar": "القماش"
+      }
+    },
+    {
+      "path": "beden",
+      "name": {
+        "tr": "Beden aralığı",
+        "en": "Size range",
+        "ar": "نطاق المقاسات"
+      }
+    },
+    {
+      "path": "bakim",
+      "name": {
+        "tr": "Bakım",
+        "en": "Care",
+        "ar": "العناية"
+      }
+    }
+  ],
+  "desing": {
+    "header": [],
+    "body": [
+      "8ew5th"
+    ],
+    "footer": []
+  },
+  "modulestatus": {
+    "img": true,
+    "bgimg": true,
+    "detail": true
+  }
+}
