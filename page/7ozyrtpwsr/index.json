@@ -17,14 +17,16 @@
   },
   "path": "denim-ceket",
   "icon": "inventory_2",
-  "category": "e05uu1ir2z",
+  "category": "dis-giyim",
   "status": "play",
   "desing": {
     "header": [],
-    "body": [],
+    "body": [
+      "20fuqk"
+    ],
     "footer": []
   },
-  "index": 3,
+  "index": 6,
   "url": "",
   "text": {
     "tr": "<p>Orta ağırlıkta pamuklu denim, klasik kesim.</p>",
@@ -37,7 +39,7 @@
     "ar": "جاكيت دنيم"
   },
   "date": "2026-10-30T22:22:02.398Z",
-  "update": "2026-10-30T22:29:41.959Z",
+  "update": "2026-11-05T23:44:22.257Z",
   "desc": {
     "kumas": {
       "tr": "%100 pamuk",
