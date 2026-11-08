@@ -17,14 +17,16 @@
   },
   "path": "yun-palto",
   "icon": "inventory_2",
-  "category": "e05uu1ir2z",
+  "category": "dis-giyim",
   "status": "play",
   "desing": {
     "header": [],
-    "body": [],
+    "body": [
+      "f32yjl"
+    ],
     "footer": []
   },
-  "index": 2,
+  "index": 5,
   "url": "",
   "text": {
     "tr": "<p>Yün karışımlı, düz kesim, astarlı kış paltosu.</p>",
@@ -37,7 +39,7 @@
     "ar": "معطف صوف"
   },
   "date": "2026-10-30T22:22:02.403Z",
-  "update": "2026-10-30T22:29:41.965Z",
+  "update": "2026-11-05T23:44:22.263Z",
   "desc": {
     "kumas": {
       "tr": "%70 yün, %30 polyester",

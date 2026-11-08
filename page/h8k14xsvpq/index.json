@@ -17,14 +17,16 @@
   },
   "path": "ipek-sal",
   "icon": "inventory_2",
-  "category": "iindhvp82e",
+  "category": "aksesuar",
   "status": "play",
   "desing": {
     "header": [],
-    "body": [],
+    "body": [
+      "evvlqk"
+    ],
     "footer": []
   },
-  "index": 1,
+  "index": 4,
   "url": "",
   "text": {
     "tr": "<p>Soyut desenli, hafif ipek şal; 90×90 cm.</p>",
@@ -37,7 +39,7 @@
     "ar": "وشاح حرير"
   },
   "date": "2026-10-30T22:22:02.411Z",
-  "update": "2026-10-30T22:29:41.970Z",
+  "update": "2026-11-05T23:44:22.268Z",
   "desc": {
     "kumas": {
       "tr": "%100 ipek",

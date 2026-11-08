@@ -17,14 +17,16 @@
   },
   "path": "deri-omuz-cantasi",
   "icon": "inventory_2",
-  "category": "iindhvp82e",
+  "category": "aksesuar",
   "status": "play",
   "desing": {
     "header": [],
-    "body": [],
+    "body": [
+      "6mmarq"
+    ],
     "footer": []
   },
-  "index": 0,
+  "index": 3,
   "url": "",
   "text": {
     "tr": "<p>Sade çizgili, iç gözlü, ayarlanabilir askılı hakiki deri çanta.</p>",
@@ -37,7 +39,7 @@
     "ar": "حقيبة كتف جلدية"
   },
   "date": "2026-10-30T22:22:02.417Z",
-  "update": "2026-10-30T22:29:41.975Z",
+  "update": "2026-11-05T23:44:22.273Z",
   "desc": {
     "kumas": {
       "tr": "Hakiki deri",

@@ -17,14 +17,16 @@
   },
   "path": "keten-gomlek",
   "icon": "inventory_2",
-  "category": "fg8l4wkkpn",
+  "category": "giyim",
   "status": "play",
   "desing": {
     "header": [],
-    "body": [],
+    "body": [
+      "eyuce4"
+    ],
     "footer": []
   },
-  "index": 5,
+  "index": 8,
   "url": "",
   "text": {
     "tr": "<p>Yıkanmış keten, rahat kesim; her mevsim katmanlanır.</p>",
@@ -37,7 +39,7 @@
     "ar": "قميص كتان"
   },
   "date": "2026-10-30T22:22:02.386Z",
-  "update": "2026-10-30T22:29:41.938Z",
+  "update": "2026-11-05T23:44:22.246Z",
   "desc": {
     "kumas": {
       "tr": "%100 keten",
