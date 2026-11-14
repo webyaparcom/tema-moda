@@ -38,21 +38,21 @@
   <link rel="preload" href="/src/fonts/nunito-sans/nunito-sans-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/nunito-sans/nunito-sans-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/nunito-sans/nunito-sans-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/fonts/nunito-sans.css?v=c7q8b" />
-  <link rel="stylesheet" href="/src/fonts/cormorant-garamond.css?v=c7q8b" />
-  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=c7q8b" />
-  <link rel="stylesheet" href="/src/fonts/noto-naskh-arabic.css?v=c7q8b" />
-  <link rel="stylesheet" href="/src/rubik.css?v=c7q8b" />
-  <link rel="stylesheet" href="/src/css.css?v=c7q8b" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=c7q8b" />
+  <link rel="stylesheet" href="/src/fonts/nunito-sans.css?v=w4lpd" />
+  <link rel="stylesheet" href="/src/fonts/cormorant-garamond.css?v=w4lpd" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=w4lpd" />
+  <link rel="stylesheet" href="/src/fonts/noto-naskh-arabic.css?v=w4lpd" />
+  <link rel="stylesheet" href="/src/rubik.css?v=w4lpd" />
+  <link rel="stylesheet" href="/src/css.css?v=w4lpd" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=w4lpd" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=c7q8b" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=w4lpd" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=c7q8b" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=w4lpd" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=c7q8b" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=c7q8b" />
-  <link rel="shortcut icon" href="/img/icon.png?v=c7q8b" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=w4lpd" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=w4lpd" />
+  <link rel="shortcut icon" href="/img/icon.png?v=w4lpd" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -98,7 +98,7 @@
         "@type": "ImageObject",
         "url": "https://moda.webyapar.com/img/logo.png"
       },
-      "dateModified": "2026-11-14T14:03:42.821Z",
+      "dateModified": "2026-11-14T14:37:21.952Z",
       "breadcrumb": {
         "@id": "https://moda.webyapar.com/en/dis-giyim/#breadcrumb"
       }
@@ -125,7 +125,7 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=c7q8b">
+<link rel="stylesheet" href="style.css?v=w4lpd">
 </head>
 
 <body>
@@ -230,7 +230,7 @@
   <div class="h0001-header">
     <div class="h0001-header-top">
       <a href="/en/" class="h0001-header-left">
-        <img src="/img/logo.png?v=maasq" alt="Logo" class="h0001-logo" loading="lazy" />
+        <img src="/img/logo.png?v=egpnc" alt="Logo" class="h0001-logo" loading="lazy" />
       </a>
 
       <div class="h0001-search-box">
@@ -262,7 +262,7 @@
     <div class="h0001-header-bottom-inner">
       
       <div class="h0001-kat">
-        <button type="button" class="h0001-category-btn" aria-haspopup="true" aria-expanded="false" aria-controls="menu-eticaret-2-kat" onclick="eticaret2_kategori(event)">
+        <button type="button" class="h0001-category-btn" aria-expanded="false" aria-controls="menu-eticaret-2-kat" onclick="eticaret2_kategori(event)">
           <span class="material-symbols-outlined" aria-hidden="true">menu</span> Categories
         </button>
         <div class="h0001-kat-panel" id="menu-eticaret-2-kat" hidden>
@@ -346,6 +346,14 @@
       var root = document.getElementById("menu-eticaret-2-root");
       var btn = root && root.querySelector(".h0001-category-btn");
       if (btn) btn.focus();
+    });
+    
+    document.addEventListener("focusin", function (e) {
+      var pan = document.getElementById("menu-eticaret-2-kat");
+      if (!pan || pan.hidden) return;
+      var kap = pan.parentNode;
+      if (kap && kap.contains(e.target)) return;
+      eticaret2_kategori(null, false);
     });
   }
 </script>
@@ -1170,10 +1178,10 @@ function b0000AddCart(btn, ev) {
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=c7q8b"></script>
-  <script defer src="/src/mx-store.js?v=c7q8b"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=c7q8b"></script>
-  <script defer src="/src/cookie.js?v=c7q8b"></script>
+  <script defer src="/src/mx-ui.js?v=w4lpd"></script>
+  <script defer src="/src/mx-store.js?v=w4lpd"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=w4lpd"></script>
+  <script defer src="/src/cookie.js?v=w4lpd"></script>
 
 </body>
 
