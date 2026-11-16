@@ -99,10 +99,20 @@ const WA = `<svg class="${P}-wasvg" viewBox="0 0 24 24" fill="currentColor" aria
 const telH = (s) => (D.tel ? `<a class="${P}-${s || "tel"}" href="tel:+${D.tel}"><bdi dir="ltr">${esc(D.telYazi)}</bdi></a>` : "");
 const waH = (s) => (D.wa ? `<a class="${P}-${s || "wa"}" href="${esc(D.wa)}" target="_blank" rel="noopener">${WA}<span>${esc(D.waAd || D.telYazi)}</span></a>` : "");
 const saatH = (s) => (D.saat ? `<p class="${P}-${s || "saat"}"><span class="material-symbols-outlined" aria-hidden="true">schedule</span><span>${D.saatAd ? `<strong>${esc(D.saatAd)}:</strong> ` : ""}${esc(D.saat)}</span></p>` : "");
+/* renk anahtarı köprüsü (aile.renkAd): eski veride `text` RENK değeriyse renk olarak kalır (yer tutucu eski ada döner),
+   değilse içerik sayılır; renk değeri hiçbir zaman metin olarak basılmaz. Yeni anahtar varsayılandan farklı verilmişse o kazanır. */
+const renkMi = (v) => typeof v === "string" && /^\s*(#[0-9a-f]{3,8}|(?:rgba?|hsla?|hwb|lab|lch|oklab|oklch|color|color-mix|var)\(.+\)|transparent|currentcolor)\s*$/i.test(v);
+const RENK_KOPRU = {"yaziRenk":["text","var(--mx-site-text, #111318)"]};
+const desMetin = { ...des };
+for (const [yeni, [eski, vars]] of Object.entries(RENK_KOPRU)) {
+  if (!renkMi(des[eski])) continue;
+  desMetin[eski] = "";
+  if (des[yeni] == null || des[yeni] === "" || des[yeni] === vars) html = html.split(`--${yeni}--`).join(`--${eski}--`);
+}
 /* --- modül: cagri-dalga --- */
 const kart = (k) => `<li class="${P}-madde">${ikonH(k.ikon || "check_circle", `${P}-mikon`)}<span class="${P}-myazi"><strong>${esc(k.baslik)}</strong>${k.metin ? `<small>${esc(k.metin)}</small>` : ""}</span></li>`;
 const sar = (ic, A, B) => `<div class="${P}-kutu"><svg class="${P}-dalga ${P}-dalga--ust" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 60V30C240 0 480 0 720 30s480 30 720 0v30z" fill="currentColor"/></svg><div class="${P}-yazi">${ustH(B)}${bslk(B)}${metH(B)}${dgH()}</div><svg class="${P}-dalga ${P}-dalga--alt" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 0v30c240 30 480 30 720 0s480-30 720 0V0z" fill="currentColor"/></svg></div>`;
-const B = { ust: metinAl(des, ["ust","badge","kicker","eyebrow"]), baslik: metinAl(des, ["baslik","title"]), metin: metinAl(des, ["metin","description","text"]) };
+const B = { ust: metinAl(desMetin, ["ust","badge","kicker","eyebrow"]), baslik: metinAl(desMetin, ["baslik","title"]), metin: metinAl(desMetin, ["metin","description","text"]) };
 /* veri yoksa gövde hiç kurulmaz (sarmalayıcı boş listeye dokunmaz) */
 const BOS = !B.baslik && !D.dugmeler.length;
 const govde = BOS ? "" : sar(kayitlar.map((k, i) => kart(k, i, kayitlar.length, kayitlar)).join(""), kayitlar, B);
